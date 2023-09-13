@@ -1,0 +1,107 @@
+<Extensions>
+  <Version>1.10</Version>
+  <Panel>
+    <Order>3</Order>
+    <PanelId>selfview_panel</PanelId>
+    <Origin>local</Origin>
+    <Location>HomeScreenAndCallControls</Location>
+    <Icon>Camera</Icon>
+    <Color>#6F739E</Color>
+    <Name>Advanced Selfview Control</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Selfview Control</Name>
+      <Row>
+        <Name>Show Selfview</Name>
+        <Widget>
+          <WidgetId>show_selfview</WidgetId>
+          <Type>ToggleButton</Type>
+          <Options>size=1</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Full screen</Name>
+        <Widget>
+          <WidgetId>fullscreen_selfview</WidgetId>
+          <Type>ToggleButton</Type>
+          <Options>size=1</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>On Monitor</Name>
+        <Widget>
+          <WidgetId>widget_1</WidgetId>
+          <Name>NOTE: The Selfview won't appear on the Screen/Monitor Role "PresentationOnly" or "Recorder"</Name>
+          <Type>Text</Type>
+          <Options>size=4;fontSize=small;align=center</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>selfview_on_monitor</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4;columns=3</Options>
+          <ValueSpace>
+            <Value>
+              <Key>First</Key>
+              <Name>First</Name>
+            </Value>
+            <Value>
+              <Key>Second</Key>
+              <Name>Second</Name>
+            </Value>
+            <Value>
+              <Key>Third</Key>
+              <Name>Third</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Position</Name>
+        <Widget>
+          <WidgetId>selfview_position</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4;columns=3</Options>
+          <ValueSpace>
+            <Value>
+              <Key>UpperLeft</Key>
+              <Name>Top Left</Name>
+            </Value>
+            <Value>
+              <Key>UpperCenter</Key>
+              <Name>Top Center</Name>
+            </Value>
+            <Value>
+              <Key>UpperRight</Key>
+              <Name>Top Right</Name>
+            </Value>
+            <Value>
+              <Key>CenterLeft</Key>
+              <Name>Middle Left</Name>
+            </Value>
+            <Value>
+              <Key>CenterCenter</Key>
+              <Name/>
+            </Value>
+            <Value>
+              <Key>CenterRight</Key>
+              <Name>Middle Right</Name>
+            </Value>
+            <Value>
+              <Key>LowerLeft</Key>
+              <Name>Bottom Left</Name>
+            </Value>
+            <Value>
+              <Key>LowerCenter</Key>
+              <Name/>
+            </Value>
+            <Value>
+              <Key>LowerRight</Key>
+              <Name>Bottom Right</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
